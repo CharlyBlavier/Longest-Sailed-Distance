@@ -3,7 +3,7 @@
 rotatedMarker <- htmltools::htmlDependency(
   "Leaflet.rotatedMarker",
   "0.1.2",
-  src = normalizePath("./inst/app/www/"),
+  src = normalizePath("./js/"),
   script = "leaflet.rotatedMarker.js"
 )
 
